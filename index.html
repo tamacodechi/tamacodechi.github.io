@@ -7,12 +7,4 @@ title: Home
 
 <h1 class="text-red-400">This is the index</h1>
 
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-
-{% include footer.html %}
+{% include posts.html %} {% include footer.html %}
