@@ -1,0 +1,19 @@
+<div class="flex justify-between my-3">
+  <h1 class="text-3xl md:text-4xl font-bold">Articles</h1>
+  <a href="/blog" class="view-all">View All</a>
+</div>
+
+<ul class="mx-auto">
+  {% for post in site.posts limit:2 %}
+  <a class="hover:bg-gray-100" href="{{ post.url }}">
+    <div class="mx-auto hover:bg-gray-100 rounded-lg">
+      <div class="max-w-sm">
+        <div class="p-2">
+          <h5 class="font-bold text-xl mb-1">{{ post.title }}</h5>
+          <div class="text-gray-500 text-xl">{{ post.excerpt }}</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</ul>

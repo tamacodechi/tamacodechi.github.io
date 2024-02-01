@@ -1,12 +1,30 @@
-<header class="py-1">
-  <nav class="content-center rounded-lg flex shadow-xl z-10">
-    <div class="w-full h-16 inline-flex items-center ml-3">
-      <img class="h-14" src="{{ '/assets/images/Pilarsplash.png' }}" />
-      <div class="flex ml-auto font-bold">
-        <a href="/" class="px-3 py-2">About</a>
-        <a href="/" class="px-3 py-2">Blog</a>
-        <a href="/" class="px-3 py-2">Projects</a>
-        <a href="/" class="px-3 py-2">Contact</a>
+<header class="py-2">
+  <nav class="content-center rounded-lg flex shadow-xl border-t">
+    <div class="w-full inline-flex items-center ml-3">
+      <a class="py-2 px" href="/"
+        ><img
+          class="rounded-lg h-16 object-scale-down"
+          src="{{ '/assets/images/Pilarsplash.png' }}"
+      /></a>
+      <div class="sm:hidden w-full pr-6">
+        <button class="float-right">
+          <svg class="w-5 h-5" viewBox="0 0 17 14">
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="sm:flex hidden ml-auto font-semibold text-gray-700">
+        <a id="/about/" href="/about" class="nav-element">About</a>
+        <a href="/blog" class="nav-element">Blog</a>
+        <a href="/projects" class="nav-element">Projects</a>
+        <a href="/contact" class="nav-element">Contact</a>
       </div>
     </div>
   </nav>

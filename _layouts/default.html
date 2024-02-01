@@ -6,7 +6,9 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body class="w-2/3 mx-auto">
+  <body class="sm:min-h-screen w-full lg:w-10/12 xl:w-9/12 px-2 md:mx-auto">
+    {% include header.html %}
     {{ content }}
+    {% include footer.html %}
   </body>
 </html>

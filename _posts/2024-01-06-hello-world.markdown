@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Images can be added to posts"
-date: 2023-09-26 16:56:21 +0200
-tags: environment politics
+title: "Theme customizations"
+date: 2024-01-06 16:35:21 +0200
+categories: jekyll update
+tags: environment sport
 ---
 
-Add an image to your post
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Modify Fernfolio to meet your needs
 
 Jekyll requires blog post files to be named according to the following format:
 
